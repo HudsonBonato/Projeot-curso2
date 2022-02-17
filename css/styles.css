@@ -22,7 +22,7 @@
     color: #7a7a7a;
 }
 
-/* NAVBAR */
+/* --NAVBAR-- */
 #navbar {
     border-bottom: 1px solid #7a7a7a;
 }
@@ -60,7 +60,7 @@
     margin: 0 1em;
 }
 
-/* SLIDER */
+/* --SLIDER-- */
 #slider {
     margin-top: 2em;
     margin-bottom: 1em;
@@ -100,7 +100,7 @@
     background-color: #000;
 }
 
-/* SLIDER Responsividade */
+/* --SLIDER-- Responsividade */
 @media (min-width: 768px) {
     #slider .carousel-caption {
         bottom: 15em;
@@ -121,7 +121,7 @@
     }
 }
 
-/* MINI BANNERS */
+/* --MINI BANNERS-- */
 #mini-banners  {
     margin-bottom: 4em;
 }
@@ -152,7 +152,7 @@
     }
 }
 
-/* DESTAQUES */
+/* --DESTAQUES-- */
 #featured-container {
     margin-bottom: 4em;
 }
@@ -211,4 +211,133 @@
     #featured-images .banner-content {
         opacity: 0;
     }
+}
+
+/* --INFO-- */
+#info-content {
+    margin-bottom: 4em;
+    padding: 4em 1em;
+}
+
+#info-numbers {
+    margin: 1.5em 0;
+    padding-left: 2em;
+}
+
+#info-banner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+
+#info-numbers h3 {
+    font-size: 3em;
+}
+
+#info-btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media(min-width: 768px) {
+    #info-content {
+        padding: 3.5em;
+    }
+}
+
+/* --FOOTER-- */
+
+/* -FOOTER Top- */
+#footer {
+    padding: 3em 2em;
+}
+
+#footer-top {
+    margin-bottom: 2em;
+}
+
+#footer-top h2 {
+    cursor: pointer;
+}
+
+
+#footer-top, #footer-top i {   
+    color: #FFF;
+}
+
+#social-icons {
+    text-align: right;
+}
+
+#social-icons i {
+    margin-right: 1em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#social-icons i:hover {
+    color: #7a7a7a;
+}
+
+/* -FOOTER Details- */
+#footer-details {
+    margin-bottom: 3em;
+}
+
+#news-container, #contact-container, #links-container {
+    padding: 0;
+    border: 0;
+    margin-bottom: 2em;
+}
+
+#footer-details h4 {
+    color: #FFF;
+    margin-bottom: 1.5em;
+}
+
+#news-container input {
+    border-radius: 0;
+    border: none;
+}
+
+#news-container button {
+    margin-top: 1em;
+    text-transform: uppercase;
+}
+
+#links-container a {
+    text-decoration: none;
+}
+
+#links-container a:hover {
+    color: #FFF;
+}
+
+/* -FOOTER Bottom- */
+#footer-bottom {
+    border-top: 1px solid #7a7a7a;
+    padding-top: 2em;
+}
+
+#footer-bottom i {
+    color: #e61e10;
+    margin-left: 0.3em;
+}
+
+@media(min-width: 768px) {
+    #news-container {
+        padding-right: 2em;
+    }
+
+    #links-container {
+        padding-left: 2em;
+    }
+
+    #contact-container {
+        padding: 0 2em;
+        border-left: 1px solid #7a7a7a;
+        border-right: 1px solid #7a7a7a;
+    }
+
+
 }
